@@ -1,0 +1,110 @@
+.sidebar {
+    background-color: #ddd;
+    position: relative;
+    height: 100vh;
+    padding: 0;
+    border-right: 1px solid #fff;
+}
+.sidebar-header {
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.sidebar-header h5 {
+    padding: 10px;
+}
+.sidebar-links {
+    height: 80vh;
+    width: 100%;
+    /* margin-left: -10px; */
+}
+ul.links {
+    list-style: none;
+    position: relative;
+    margin-top: 20px;
+}
+
+ul.links li {
+    text-decoration: none !important;
+    list-style: none;
+    /* background-color: aqua; */
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    /* float: left; */
+    /* font-weight: 700; */
+}
+ul.links li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    /* float: left; */
+}
+ul.links li a:hover {
+    color: burlywood;
+}
+.dashboard-view {
+    height: 100vh;
+    /* background-color: #ddd !important; */
+}
+.dashboard-header {
+    height: 50px;
+    border-bottom: 1px solid #fff;
+}
+
+.username-div {
+    padding: 12px;
+    height: auto;
+}
+.user-text {
+    color: #fff;
+    font-weight: 100;
+}
+.user-text span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.dashboard-header-link {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+.dashboard-header-link li {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    color: #fff;
+    float: right;
+}
+
+.dashboard-header-link li a {
+    color: #fff;
+}
+.dashboard-header-link li a:hover {
+    color: burlywood;
+}
+.main-dashboard div.dash-box {
+    height: 130px;
+    background-color: #fff;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dash-box div.col-md-4 {
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.dash-box div.col-md-8 {
+    height: 130px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.icon-div {
+    text-align: center;
+}
+.icon-div p {
+    margin-top: 25px;
+}
