@@ -6,7 +6,7 @@
             <div class="username-div col-md-6">
                 <h5 class="user-text">
                     <strong>LoggedIN As:</strong>
-                    <span class="text-warning">User001</span>
+                    <span class="text-warning">userxyz</span>
                 </h5>
             </div>
             <ul class="dashboard-header-link col-md-6">
